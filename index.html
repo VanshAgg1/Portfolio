@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>VANSH AGGARWAL PERSONAL SITE</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>Vansh Aggarwal Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <table cellspacing="20">
+            <tr>
+                <td><img src="profile1.jpeg" class = "profileImage" alt="photo" style="width: 275px; height: 275px ;"></td>
+    
+                <td>
+                    <h1>VANSH AGGARWAL</h1>
+    
+                    <h3><em><strong>DSA enthusiast</strong></em></h3>
+                    
+                </td>
+            </tr>
+    
+        </table>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <br>
+        <h1>About me </h1>
+        <br>
+        
+        <p>
+            I'm currently a 2nd year student pursuing BTech in Computer Science & Engineering from Mahraja Surajmal Institute of Technology.I am always looking to explore the various avenues through
+            internships, research and engaging in clubs. I’m always looking to meet new people and expand my
+            circle so please feel free to reach out!             
+            I'm a programming enthusiast skilled in Cpp, Python and gaining skills in DSA, problem solving.<br> 
+            250+ questions solved on LEETCODE (cpp)<br> 
+            5 🌟 hacker rank (cpp)<br>
+            Built some projects like tic tac toe, bank management in cpp. Projects like knight's travails and 2048 in Python. 
+            </p>
+        <p>
+            
+    
+        </p>
+    </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='html.jpeg'>
+          <img title='CSS' src='css.jpeg'>
+          <img title='Javascript' src='js.jpeg'>
+          <img title='C++' src='cpp.jpeg'>
+          <img title='Python' src='Pythonn.jfif'>
+        
+          <h1 class='cardHeading'>Profiles</h1>
+            <a href = "https://leetcode.com/vanshaggarwal011/" target="_blank"> 
+                <img src = "l.png"  style="width: 100px; height: 80px margin:10px margin = 5px ;"> 
+            </a>
+            <a href = "https://www.hackerrank.com/vanshaggarwal011" target="_blank"> 
+                <img src = "hackerrank.jfif" style="width: 100px; height: 80px margin:10px margin = 5px;"> 
+            </a>
+
+            <a href = "https://www.linkedin.com/in/vansh-aggarwal-4aa85121b" target="_blank"> 
+                <img src = "linkedln.jpeg" style="width: 100px; height: 80px margin = 5px;"> 
+            </a>
+
+        </div>
+
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='2048.jfif'/>
+            <div class='projectDescription'>
+              <h4>2048 Game</h4>
+              <p>2048 is an easy and fun puzzle game. Even if you don't love numbers you will love this game. </p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='tic tac toe.jfif'/>
+            <div class='projectDescription'>
+              <h4>Tic Tac Toe</h4>
+              <p>Tic Tac Toe is a two-player game in which the objective is to take turns and mark the correct spaces in a 3x3 grid.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+```
